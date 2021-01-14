@@ -6,3 +6,4 @@
 * [Section_04](https://nbviewer.jupyter.org/github/EslamAdel/Biostatistics-Tutorials/blob/main/Section_04.ipynb): Conditional Probability, Independence and Bayes rule.
 
 * [Section_05](https://nbviewer.jupyter.org/github/EslamAdel/Biostatistics-Tutorials/blob/main/Section_05.ipynb): Discrete Random Variables.
+* [Section_06](https://nbviewer.jupyter.org/github/EslamAdel/Biostatistics-Tutorials/blob/main/Section_06.ipynb): Discrete Distributions.
