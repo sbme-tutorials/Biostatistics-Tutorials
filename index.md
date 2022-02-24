@@ -1,9 +1,42 @@
-# Biostatistics-Tutorials
+# BioStatistics \(SBE2240\) - Spring 2022
 
-* [Section_01](https://nbviewer.jupyter.org/github/EslamAdel/Biostatistics-Tutorials/blob/main/Section_01.ipynb): Introduction to python. 
-* [Section_02](https://nbviewer.jupyter.org/github/EslamAdel/Biostatistics-Tutorials/blob/main/Section_02.ipynb): Introduction to Probability Theory.
-* [Section_03](https://nbviewer.jupyter.org/github/EslamAdel/Biostatistics-Tutorials/blob/main/Section_03.ipynb): Counting Method Exercises. 
-* [Section_04](https://nbviewer.jupyter.org/github/EslamAdel/Biostatistics-Tutorials/blob/main/Section_04.ipynb): Conditional Probability, Independence and Bayes rule.
+## Teaching Staff
 
-* [Section_05](https://nbviewer.jupyter.org/github/EslamAdel/Biostatistics-Tutorials/blob/main/Section_05.ipynb): Discrete Random Variables.
-* [Section_06](https://nbviewer.jupyter.org/github/EslamAdel/Biostatistics-Tutorials/blob/main/Section_06.ipynb): Discrete Distributions.
+Instructors: Prof. Ayman Eldeib
+
+Teaching Assistant:  Eng. Eslam Adel
+
+
+## Section Hours
+
+| Section | Day | Time Slot |
+|---------|-----|-----------|
+|   1     | Thursday | 3rd |
+|   2     | Thursday | 4th |
+
+## Office Hours
+
+| Day | Time |
+|-----|-----------|
+| Thursday | from **3:30 PM** to **6 PM** |
+
+## Grading
+
+| Item | Percent  |
+|-----|-----------|
+| Final Exam | 60%  |
+| Semester work grades (Total) | 40 % |
+
+
+## Course Outline
+
+| Week | Content |  Assignments
+|------|-----------------|-----|
+|   1  | Introduction to Python programming| |
+
+
+## Tutorials
+
+* Introduction to Python programming
+    * [Notes](){:target="_blank"}
+   

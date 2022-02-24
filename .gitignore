@@ -1,3 +1,4 @@
-.ipynb_checkpoints/*
-ref/*
-todo.txt
+Notebooks/.ipynb_checkpoints/*
+Pipfile
+Notebooks/*.csv
+
