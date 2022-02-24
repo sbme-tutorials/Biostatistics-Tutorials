@@ -38,5 +38,5 @@ Teaching Assistant:  Eng. Eslam Adel
 ## Tutorials
 
 * Introduction to Python programming
-    * [Notes](){:target="_blank"}
+    * [Notes](https://nbviewer.org/github/sbme-tutorials/Biostatistics-Tutorials/blob/main/Notebooks/Section_01.ipynb){:target="_blank"}
    
