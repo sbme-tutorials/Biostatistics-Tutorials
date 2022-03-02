@@ -33,7 +33,7 @@ Teaching Assistant:  Eng. Eslam Adel
 | Week | Content |  Assignments
 |------|-----------------|-----|
 |   1  | Introduction to Python programming| |
-
+|   2  | Introduction to Probability Theory | |
 
 ## Tutorials
 
