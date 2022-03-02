@@ -39,4 +39,7 @@ Teaching Assistant:  Eng. Eslam Adel
 
 * Introduction to Python programming
     * [Notes](https://nbviewer.org/github/sbme-tutorials/Biostatistics-Tutorials/blob/main/Notebooks/Section_01.ipynb){:target="_blank"}
+
+* Introduction to Probability Theory
+    * [Notes](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sections/Section_02.pdf){:target="_blank"}
    
