@@ -4,7 +4,7 @@
 
 Instructors: Prof. Ayman Eldeib
 
-Teaching Assistant:  Eng. Eslam Adel
+Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 
 
 ## Section Hours
