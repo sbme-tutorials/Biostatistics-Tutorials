@@ -42,4 +42,7 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 
 * Introduction to Probability Theory
     * [Notes](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sections/Section_02.pdf){:target="_blank"}
-   
+
+## Sheets
+
+* [Sheet1](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sheets/Sheet_1.pdf){:target="_blank"}
