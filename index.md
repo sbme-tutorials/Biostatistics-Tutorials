@@ -35,6 +35,7 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 |   1  | Introduction to Python programming| |
 |   2  | Introduction to Probability Theory | |
 |   3  | Discrete Random Variables I | | 
+|   4  | Discrete Random Variables II | | 
 
 ## Tutorials
 
@@ -46,6 +47,9 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 
 * Discrete Random Variables I
     * [Notes](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sections/Section_03.pdf){:target="_blank"}
+
+* Discrete Random Variables II
+    * [Notes](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sections/Section_04.pdf){:target="_blank"}
 
 ## Sheets
 
