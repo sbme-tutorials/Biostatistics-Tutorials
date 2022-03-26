@@ -36,7 +36,7 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 |   2  | Introduction to Probability Theory | Assignment 1 |
 |   3  | Discrete Random Variables I | | 
 |   4  | Discrete Random Variables II | Assignment 2 | 
-|   5  | Continuous Random Variables II | | 
+|   5  | Continuous Random Variables | | 
 
 ## Tutorials
 
