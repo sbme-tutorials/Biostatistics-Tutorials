@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Statistics with Python</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Statistics with Python
+
+## Eslam Adel
+
+### eslam.a.mahmoud@eng1.cu.edu.eg
+
+---
+## Statistics Using Python
+### Outlines
+* Set theory basics
+* Counting methods
+    * Cross product and power
+    * Permutations
+    * Combinations
+* Discrete Random Variables
+    * Probability mass function (pmf) **f(x)**
+    * Comulative distribution function (CDF) **F(x)**
+    * Expected Value **E[X]** and Variance **V(X)**
+
+* Discrete Distributions
+    * Uniform RV
+    * Binomial 
+    * Geometric
+    * Negative Binomial
+    * Hypergeometric
+    * Poisson
+---
+## Set theory basics
+
+Possible outcomes of an experiment (Sample space)
+
+### Set relationships
+* Subset
+* Superset
+* Disjoint
+* Universal set
+* Null set
+
+**Example**
+
+```python
+Univ = set([x for x in range(11)])
+even = set([x for x in range(11) if x%2==0])
+odd = set([x for x in range(11) if x%2==1])
+two_elements = set([4,6])
+Null = set()
+```
+What's the relation between each pair of sets? 
+
+```python
+issubset, issuperset, isdisjoint
+```
+---
+### Set algebra/Operations
+
+* Equality
+* Intersection
+* Union 
+* Difference 
+* Complement
+* Cartesian product and Cartesian power
+
+```python
+# equality, intersection, union, difference, complement, cartesian product 
+U = {1, 2, 3, 4, 5, 6, 9}
+A = {1, 2, 3, 4, 5, 6}
+B = {9, 3, 6}
+
+# Cartesian power (Tossing Coin)
+from itertools import product as prod
+
+S = {"H", "T"} 
+n = 2
+```
+
+---
+## Counting Method
+
+* Selection with replacement $$n^k$$
+* Selection without replacement 
+      * Order matters:  Permutations $$^{n}P_{k} =\frac{n!}{(n-k)!}$$.
+      * Order doesn't matter Combinations:  $$^{n}C_{k} =\frac{n!}{k!(n-k)!}$$.
+
+---
+### Exercises
+1. Describe the sample space 
+      * An order for a computer system can specify memory of 4, 8, or 12 gigabytes and disk storage of 200, 300, or 400 gigabytes.
+      * An ammeter that displays three digits is used to measure current in milliamperes. 
+2. Five balls numbered 1, 2, 3, 4, 5 are drawn from an urn without replacement. What is the probability that they are drawn in the same order as their number?
+3. How many subsets of size 3 can be made from {A, B, C, D}?
+
+```python
+from itertools import product as prod
+from itertools import permutations
+from itertools import combinations
+```
+---
+## Discrete Random Variables
+### pmf visualization 
+
+```python
+import matplotlib.pyplot as plt
+def plot_pmf(x, fx, new_fig = True, color = 'b'):
+    if new_fig:
+        fig = plt.figure(figsize=(9,6))
+    plt.stem( x , fx, use_line_collection = True, linefmt=color,markerfmt=color+"o", basefmt='k')
+    plt.xlabel("RV X",fontsize=15)
+    plt.ylabel("PMF f(x)",fontsize=15)
+    plt.xticks(fontsize=15)
+    plt.yticks(fontsize=15)
+    plt.grid(True)
+```
+* Example 
+
+  Plot the following pmf 
+
+  $$
+  f(x) = \frac{2x+1}{25}, x = 0, 1, 2, 3, 4
+  $$
+
+---
+### CDF visualization 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+def plot_CDF(x, Fx):
+    """
+    x : is the intervals with length n+1
+    Fx : the cumulative sum from with length n
+    """
+    data = np.array(x)
+    y = np.array(Fx[1:])
+    yn = np.array(Fx)
+    plt.figure(figsize=(9,6))
+    fig, ax = plt.subplots(figsize = (9,6))
+    ax.set_facecolor('white')
+    # https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.hlines.html
+    ax.hlines(y=yn, xmin=data[:-1], xmax=data[1:], color='red', zorder=1)
+    # https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.vlines.html
+    ax.vlines(x=data[1:-1], ymin=yn[:-1], ymax=yn[1:], color='red', linestyle='dashed', zorder=1)
+    ax.scatter(data[1:-1], y, color='red', s=18, zorder=2)
+    ax.scatter(data[1:-1], yn[:-1], color='white', s=18, zorder=2, edgecolor='red')
+    ax.set_xlim(data[0], data[-1])
+    ax.set_ylim([-0.01, 1.01])
+    plt.xlabel(" X",fontsize=15)
+    plt.ylabel("CDF F(x)",fontsize=15)
+    plt.xticks(fontsize=15)
+    plt.yticks(fontsize=15)
+    plt.grid(True)
+    plt.show()
+```
+---
+Example 
+
+Plot the CDF of the function
+
+$$
+F(x) =  \\Bigg\\{ \begin{matrix}
+0 & x < -2\\\
+0.2 & -2 \leq x < -1 \\\
+0.6 & -1 \leq x < 0 \\\
+0.7 & 0 \leq x < 1 \\\
+0.9 & 1 \leq x < 2 \\\
+1 &  2 \leq x 
+\end{matrix}
+$$ 
+---
+## E[X] and V(X)
+
+* Expected Value
+$$
+\mu = E[X]   =\sum_{\forall x_i} x_i.f(x_i)
+$$
+
+and 
+
+$$E[aX+b] = aE[X] + b$$
+* Variance
+
+$$
+V(X) = E[x^2] - \mu^2  =   \sum_{\forall x_i}x_i^2 f(x_i) - \mu^2
+$$
+
+and 
+
+$$V(aX+b) = a^2V(X)$$
+
+---
+### Implementation
+
+```python
+import numpy as np
+
+def E(x, fx = None):
+    return np.dot(x,fx)
+def V(x, fx = None):
+    return np.dot(np.power(x, 2), fx) - E(x, fx)**2
+```
+
+**Exercises**
+
+  * Determine the mean and variance of X 
+
+
+  | |  | |   |   |  |
+  |---|---|---|---|---|---|
+  |x | -2 | -1 | 0 | 1 | 2 |
+  |f(x) | 0.2 | 0.4 | 0.1 | 0.2 | 0.1|
+
+  * Two discrete random variables X and Y take values (0, 2, 5, 5, 7, 10, 11) and (3, 5, 8, 8, 10, 13, 14). All values have equal probability. How are their means variances related?
+---
+## Discrete Distributions
+
+### Uniform distribution 
+
+$$f(x_i) = \frac{1}{b-a+1}$$
+
+$$E[X]= \frac{b+a}{2}$$
+and
+$$Var(X)= \frac{(b-a+1)^2-1}{12}$$
+
+* Ex : determine the mean and variance of uniform random variable X = 1, 2, 3,  ..., 19. plot pmf and CDF.  
+---
+### Binomial Distribution
+
+$$f(x) =\begin{pmatrix}n \\\ x\end{pmatrix} p^{x} (1-p)^{n-x}$$
+
+where  $$\begin{pmatrix}n \\\ x\end{pmatrix}  = \frac{n!}{x! (n-x)!}$$  
+
+and $$x = 0, 1, 2, 3 , ..., n$$
+
+$$E[X] = np $$
+$$Var(X) = np(1-p)$$
+
+```python
+from scipy.stats import binom
+```
+
+Example: Let X be a binomial random variable with p = 0.1 . and n = 10. plot pmf and CDF. 
+---
+### Geometric Distribution
+
+
+$$f(x) = (1-p)^{x-1} p $$
+
+and $x = 1, 2, 3, ..$
+
+$$E[X] = \frac{1}{p}$$
+and 
+$$Var(X) = \frac{1-p}{p^2}$$
+
+```python
+from scipy.stats import geom
+```
+
+Example : Plot pmf and CDF of geometric RV with p= 0.2. 
+---
+## Negative Binomial Distribution
+
+$$f(x) =\begin{pmatrix}x-1 \\ r-1\end{pmatrix} (1-p)^{x-r} p^{r}$$
+
+
+Where $$x = r, r+1, r+2, ...$$
+
+$$E[X] = \frac{r}{p} $$
+and 
+$$Var(X) = \frac{r(1-p)}{p^2}$$
+
+```python
+from scipy.stats import nbinom
+```
+
+Example : Plot pmf and CDF of negative binomial RV with p= 0.2 and r = 5. 
+
+---
+## Hypergeometric Distribution
+
+
+$$f(x) = \frac{\begin{pmatrix}K \\\ x\end{pmatrix} \begin{pmatrix}N-K \\\ n-x\end{pmatrix} }{\begin{pmatrix}N \\\ n\end{pmatrix} }$$
+
+and 
+
+$$E[X] = np $$
+$$Var(X) = np (1-p) (\frac{N-n}{N-1})$$
+
+Where $$p = \frac{K}{N}$$
+
+```python
+from scipy.stats import hypergeom
+[N, n, K] = [100, 10, 20]
+```
+
+---
+class: center, middle
+# Thanks
+
+    </textarea>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
