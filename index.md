@@ -52,6 +52,10 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 * Discrete Random Variables II
     * [Notes](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sections/Section_04.pdf){:target="_blank"}
 
+* Statistics with Python 
+    * [Slides](https://sbme-tutorials.github.io/Biostatistics-Tutorials/presentations/statistics_python_1/#1){:target="_blank"}
+    * [Notes](){:target="_blank"}
+
 * Continuous Random Variables
     * [Notes](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sections/Section_05.pdf){:target="_blank"}
 
