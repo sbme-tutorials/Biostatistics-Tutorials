@@ -36,7 +36,8 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 |   2  | Introduction to Probability Theory | Assignment 1 |
 |   3  | Discrete Random Variables I | | 
 |   4  | Discrete Random Variables II | Assignment 2 | 
-|   5  | Continuous Random Variables | | 
+|   5  | Continuous Random Variables | |
+|   6  | Joint Probability Distribution | | 
 
 ## Tutorials
 
@@ -58,6 +59,10 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 
 * Continuous Random Variables
     * [Notes](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sections/Section_05.pdf){:target="_blank"}
+
+* Joint Probability Distribution
+    * [Notes](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sections/Section_06.pdf){:target="_blank"}
+
 
 ## Sheets
 
