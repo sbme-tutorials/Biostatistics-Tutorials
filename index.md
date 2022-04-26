@@ -63,6 +63,11 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 * Joint Probability Distribution
     * [Notes](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sections/Section_06.pdf){:target="_blank"}
 
+*  Random sampling and Statistical intervals. 
+    * [Notebook](https://nbviewer.org/github/sbme-tutorials/Biostatistics-Tutorials/blob/main/Notebooks/Section_07.ipynb){:target="_blank"}
+    * [Notes](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sections/Section_07.pdf){:target="_blank"}
+    * [Video](https://drive.google.com/file/d/1_BHGyg56DxdcaqjawCGxs4EZkcTDdKMB/view?usp=sharing){:target="_blank"}
+
 
 ## Sheets
 
@@ -71,3 +76,7 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 * [Sheet2](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sheets/Sheet_2.pdf){:target="_blank"}
 
 * [Sheet3](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sheets/Sheet_3.pdf){:target="_blank"}
+
+* [Sheet4](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sheets/Sheet_4.pdf){:target="_blank"}
+
+* [Sheet5](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sheets/Sheet_5.pdf){:target="_blank"}
