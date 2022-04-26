@@ -38,6 +38,7 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 |   4  | Discrete Random Variables II | Assignment 2 | 
 |   5  | Continuous Random Variables | |
 |   6  | Joint Probability Distribution | | 
+|   7  | Random sampling and Statistical intervals | | 
 
 ## Tutorials
 
