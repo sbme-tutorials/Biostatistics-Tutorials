@@ -16,6 +16,9 @@ The main steps of the project:
 3. Training the ML model 
 4. Testing the model 
 5. Deploying the model on a web application 
+## Deadline 
+
+The deadline of the project is **Sunday 22/5/2022**
 
 ## Suggested datasets
 
@@ -30,11 +33,15 @@ The main steps of the project:
 3. Coronavirus tweets Text Classification
     
     Classify the tweets about the Coronavirus into positive, neutral, or negative tweets. [link](https://drive.google.com/drive/folders/1n6z0IwMjHAaFQgVQAVzPm4XU1VjEmAjc)
+
+    **Note:** for feature extraction use [TFIDF](https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction)
     
 4. Covid Patients' Chest X-Ray images 
  
     Differentiate between covid patient lungs and normal ones.[link](https://drive.google.com/drive/folders/1IZRX1ADKuE3hcUjTXAFHOgSoWVo54tU9)
 
+    **Note:** for feature extraction use [HOG](https://scikit-image.org/docs/dev/auto_examples/features_detection/plot_hog.html)
+    
 
 ## Other Datasets
 
