@@ -40,6 +40,10 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 |   6  | Joint Probability Distribution | | 
 |   7  | Random sampling and Statistical intervals | | 
 
+
+## Final Project
+* [Project statement](https://sbme-tutorials.github.io/Biostatistics-Tutorials/assignments/project.html){:target="_blank"})
+
 ## Tutorials
 
 * Introduction to Python programming
