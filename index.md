@@ -42,7 +42,7 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 
 
 ## Final Project
-* [Project statement](https://sbme-tutorials.github.io/Biostatistics-Tutorials/assignments/project.html){:target="_blank"})
+* [Project statement](https://sbme-tutorials.github.io/Biostatistics-Tutorials/assignments/project.html){:target="_blank"}
 
 ## Tutorials
 
