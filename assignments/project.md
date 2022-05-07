@@ -54,7 +54,7 @@ You can select any other dataset and it isn't necessary to be a medical dataset 
 
 * Each team should use only one dataset and one classifier so the combination of (the data, and classifier) is unique per team. 
 * The team members should be 4 at maximum. 
-* For those who will select the third or fourth suggested dataset, the team members are allowed to be 5.
+* For those who will select the third or fourth suggested dataset, the team members are allowed to be 5
 
 ## Project Deliverables
 
