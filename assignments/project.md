@@ -68,7 +68,7 @@ You can select any other dataset and it isn't necessary to be a medical dataset 
 
 ## Grading Criteria
 
-* 60% on building the ML system
+* 50% on building the ML system
 * 20% on Deploying the system on a web application.
+* 20% on the presentation 
 * 10% on follow-up meeting with the TA
-* 10% on the presentation 
