@@ -16,6 +16,7 @@ The main steps of the project:
 3. Training the ML model 
 4. Testing the model 
 5. Deploying the model on a web application 
+
 ## Deadline 
 
 The deadline of the project is **Sunday 22/5/2022**
