@@ -79,3 +79,18 @@ You can select any other dataset and it isn't necessary to be a medical dataset 
 * 20% on Deploying the system on a web application.
 * 20% on the presentation 
 * 10% on follow-up meeting with the TA
+
+## Resources
+
+* A complete demo for training, saving and deploying ML model using flask is [here](https://microsoft.github.io/ML-For-Beginners/#/3-Web-App/1-Web-App/README) and the source code is [here](https://github.com/microsoft/ML-For-Beginners/tree/main/3-Web-App/1-Web-App/solution)
+* Another awesome framework for deployment [fastapi](https://fastapi.tiangolo.com/)
+
+* Another advanced framework for deployment of machine learning models [streamlit](https://streamlit.io/)
+
+* Online Machine learning and Data science community [kaggle](https://www.kaggle.com/)
+
+* [Scikit-Learn](https://scikit-learn.org/stable/index.html)
+
+* [Pandas](https://scikit-learn.org/stable/index.html)
+
+* [matplotlib](https://matplotlib.org/)
