@@ -85,3 +85,6 @@ Teaching Assistant:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 * [Sheet4](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sheets/Sheet_4.pdf){:target="_blank"}
 
 * [Sheet5](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sheets/Sheet_5.pdf){:target="_blank"}
+
+* [Sheet6](https://sbme-tutorials.github.io/Biostatistics-Tutorials/sheets/Sheet_6.pdf){:target="_blank"}
+
